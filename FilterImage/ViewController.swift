@@ -14,6 +14,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func nextButtonDidTap(_ sender: Any) {
+        let sampleController = SampleViewController()
+        navigationController?.pushViewController(sampleController, animated: true)
+    }
+    
 }
 
